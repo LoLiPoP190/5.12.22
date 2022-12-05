@@ -114,5 +114,14 @@ body {
 
 .topbar.topbar-dark {
   background-color: black;
-
+}
+.nav.nav-dark .nav-link{
+  color: white;
+}
+.nav.nav-dark .nav-link:hover{
+  color: rgb(182, 182, 182);
+}
+.nav.nav-dark .nav-link.active{
+  color: black;
+  background-color: white;
 }
