@@ -112,6 +112,7 @@ body {
   background-color: white;
 }
 
+/* dark */
 .topbar.topbar-dark {
   background-color: black;
 }
@@ -124,4 +125,22 @@ body {
 .nav.nav-dark .nav-link.active{
   color: black;
   background-color: white;
+}
+
+/* beeline */
+.topbar.topbar-beeline {
+  background-color: rgb(255, 196, 0);
+}
+.nav.nav-beeline .nav-link{
+  color: black;
+}
+.nav.nav.nav-beeline .nav-link:hover{
+  color: rgb(85, 85, 85);
+}
+.nav.nav-beeline .nav-link.active{
+  color: rgb(255, 196, 0);
+  background-color: black;
+} 
+.nav.nav-beeline .nav-link.active:hover{
+  color: rgb(209, 160, 0);
 }
