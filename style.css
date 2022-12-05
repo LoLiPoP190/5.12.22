@@ -98,16 +98,16 @@ body {
 }
 .nav .nav-item .nav-link {
   color: white;
-  padding: 15px 10px;
+  padding: 10px 15px;
   text-decoration: none;
-  margin-right: 10px;
+  border-radius: 10px;
 
   display: block;
 }
-.nav .nav-item .nav-link:hover{
+.nav .nav-item .nav-link:hover {
   color: rgb(182, 182, 182);
 }
-.nav .nav-link.active{
+.nav .nav-link.active {
   color: purple;
   background-color: white;
 }
