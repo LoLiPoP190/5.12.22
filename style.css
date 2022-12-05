@@ -107,3 +107,7 @@ body {
 .nav .nav-item .nav-link:hover{
   color: rgb(182, 182, 182);
 }
+.nav .nav-link.active{
+  color: purple;
+  background-color: white;
+}
