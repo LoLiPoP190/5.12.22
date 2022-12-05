@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+[class^="col"] {
+  padding: 10px;
+}
+.col-1 {
+  flex: 8.3% 0 0;
+}
+.col-2 {
+  flex: 16% 1 0;
+}
+.col-3 {
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-4 {
+  /* 100% / 12 * 4 */
+  flex-basis: 33.3%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-5 {
+  flex: 41.6% 0 0;
+}
+.col-6 {
+  flex: 50% 0 0;
+}
+.col-7 {
+  flex: 58.3% 0 0;
+}
+.col-8 {
+  flex: 66.6% 0 0;
+}
+.col-9 {
+  flex: 75% 0 0;
+}
+.col-10 {
+  flex: 83% 0 0;
+}
+.col-11 {
+  flex: 91.6% 0 0;
+}
+.col-12 {
+  flex: 100% 0 0;
+}
+.card {
+  background-color: lightsalmon;
+  border: 1px solid black;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 3px black;
+  transition: all 100ms ease-in;
+}
+.card-image {
+  width: 100%;
+}
+.card .card-content {
+  padding: 10px 10px;
+}
+.card-content {
+  color: rgb(97, 34, 15);
+}
+.card.card-horizontal {
+  display: flex;
+}
+.card.card-horizontal .card-image {
+  width: 30%;
+}
+
+.topbar {
+  background-color: purple;
+  padding: 20px 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+  display: flex;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.nav .nav-item .nav-link {
+  color: white;
+  padding: 15px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+
+  display: block;
+}
+.nav .nav-item .nav-link:hover{
+  color: rgb(182, 182, 182);
+}
