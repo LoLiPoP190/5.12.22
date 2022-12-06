@@ -164,7 +164,6 @@ body {
 .nav.nav-beeline .nav-link.active{
   color: rgb(255, 196, 0);
   background-color: black;
-
 } 
 .nav.nav-beeline .nav-link.active:hover{
   color: rgb(209, 160, 0);
